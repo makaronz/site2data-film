@@ -1,0 +1,70 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Backend specific
+backend/uploads/
+backend/temp/
+
+# Frontend specific
+/frontend/node_modules
+/frontend/build
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage
+/frontend/.next/
+/frontend/out/
+/frontend/dist/
+
+# Parsed screenplay data
+parsed_script*.json
+scripts_parsing_results.json
+
+# PDF and media files
+*.pdf
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# Exclude sample data directory for test purposes
+!samples/*.pdf 
