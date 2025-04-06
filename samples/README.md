@@ -32,3 +32,21 @@ node ../scripts/test_script_parser.js --screenplay=./samples/your-screenplay.pdf
 ## Format Documentation
 
 For details on supported screenplay formats, refer to the main project documentation. 
+
+interface DashboardLayout {
+  scriptAnalysis: {
+    scenesOverview: SceneBreakdown[];
+    charactersStats: CharacterStats[];
+    productionMetrics: ProductionMetrics;
+  };
+  productionPlanning: {
+    schedule: Schedule;
+    resources: ResourceAllocation;
+    budget: BudgetEstimation;
+  };
+  activeProduction: {
+    dailyReports: DailyReport[];
+    progressTracking: ProgressMetrics;
+    issues: ProductionIssue[];
+  };
+} 
